@@ -1,0 +1,182 @@
+
+/*title*/
+.container .title{
+    text-align: center;
+    color: #e91e63;
+    font-family: Brush Script MT;
+    font-size: 20px;
+    height: 100%;
+}
+
+/*List*/
+.container .list{
+    background-color: #e91e63;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.container .list ul{
+    display: flex;
+}
+.container .list ul li{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    list-style: none;
+    margin: 5px;
+    border-right: 3px solid white;
+    padding-right: 10px;
+}
+
+/*news*/
+.news{
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+}
+.news .list-news{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.list-news li{
+    list-style: none;
+    width: 33%;
+}
+.list-news .midle{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.list-news img{
+    width: 100%;
+    height: 250px;
+}
+.list-news p{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.list-news .note1 li{
+    list-style: disc;
+    border-top: 1px solid gray;
+    padding: 10px;
+    width: 90%;
+}
+.note1 li::marker{
+    color: aqua;
+    font-size: 30px;
+}
+.list-news .note2 li{
+    list-style: disc;
+    border-top: 1px solid gray;
+    padding: 10px;
+    width: 90%;
+}
+.note2 li::marker{
+    color: rgb(10, 173, 10);
+    font-size: 30px;
+}
+
+/*Hot*/
+.hot{
+    height: 30%;
+    background-color: #e91e63;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px 0;
+}
+.hot p{
+    font-size: 30px;
+    color: white;
+    border-left: 3px solid white;
+    font-size: 150%;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 10px;
+}
+.hot ul{
+    display: flex;
+    padding-left: 20px;
+}
+.hot ul li{
+    list-style: none;
+    width: 33%;
+    padding-right: 20px;
+}
+.hot ul li img{
+    width: 100%;
+    height: 250px;
+}
+.hot .note{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-left: none;
+    padding: 0;
+    margin: 0;
+}
+
+/*sidebar news*/
+.sidebar-news{
+    height: 40%;
+    background-color: blanchedalmond;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px 0;
+}
+.sidebar-news .sidebar{
+    font-size: 30px;
+    color: orangered;
+    border-left: 3px solid orangered;
+    font-size: 150%;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 10px;
+}
+.sidebar-news ul{
+    display: flex;
+    padding-left: 20px;
+}
+.sidebar-news .right{
+    list-style: none;
+    width: 50%;
+}
+.sidebar-news .left{
+    list-style: none;
+    width: 50%;
+}
+.sidebar-news img{
+    width: 100%;    
+}
+    /*tin tức bên trái*/
+.sidebar-news .left p{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 100%;
+}
+.sidebar-news .left img{
+    height: 400px;
+}
+    /*tin tức bên phải*/
+.sidebar-news .right ul{
+    display: flex;
+    flex-direction: column;
+}
+.sidebar-news .right img{
+    float: left;
+    height: 190px;
+    padding-bottom: 20px;
+}
+.right li{
+    display: flex;
+}
+.right li p{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: 100%;
+    padding: 0px 10px;
+}
